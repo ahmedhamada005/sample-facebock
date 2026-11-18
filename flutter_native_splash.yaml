@@ -1,0 +1,44 @@
+flutter_native_splash:
+
+
+   android: true
+   ios: true
+   web: true
+
+  #======================================================================
+
+   color: "#ffffff"
+   color_android: "#ffffff"
+   color_ios: "#ffffff"
+   color_web: "#ffffff"
+
+
+   image:   "assets/Images/logo.png"
+   image_android:      "assets/Images/logo.png"
+   image_ios:          "assets/Images/logo.png"
+   image_web:          "assets/Images/logo.png"
+
+
+   android_gravity: center
+   ios_content_mode: center
+   web_image_mode: center
+
+   branding:    "assets/Images/branding.png"
+   branding_android:     "assets/Images/branding.png"
+   branding_ios:        "assets/Images/branding.png"
+   branding_web:       "assets/Images/branding.png"
+
+
+   branding_mode: bottom
+   branding_bottom_padding: 24          # default 0
+   branding_bottom_padding_android: 24  # default 0
+   branding_bottom_padding_ios: 24      # default 0
+
+   fullscreen: true
+   android_12:
+
+    color: "#ffffff"
+
+    image: assets/Images/splash_logo1.png
+    icon_background_color: "#ffffff"
+    branding:    assets/Images/splash_branding.png
